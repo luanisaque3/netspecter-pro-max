@@ -29,30 +29,30 @@ Instale pacotes necessários:
 sudo apt install -y python3 python3-pip git build-essential
 '''bash
 Clone o repositório:
-
+'''bash
 git clone https://github.com/luanisaque3/netspecter-pro-max.git
-
+'''bash
 Entre na pasta do projeto:
-
+'''bash
 cd netspecter-pro-max
-
+'''bash
 Crie um ambiente virtual Python (recomendado):
-
+'''bash
 python3 -m venv venv
 source venv/bin/activate
-
+'''bash
 Instale todas as dependências do projeto:
-
+'''bash
 pip install -r requisitos.txt
-
+'''bash
 Dê permissão de execução para o script:
-
+'''bash
 chmod +x netspecter.py
-
+'''bash
 Rode o aplicativo:
-
+'''bash
 sudo python3 netspecter.py
-
+'''bash
 ⚠️ Obs: sudo é necessário para capturar pacotes de rede em Linux/Kali.
 
 Uso do Netspecter
