@@ -25,9 +25,9 @@ Siga estes passos **exatamente**, sem pular nada:
    sudo apt update && sudo apt upgrade -y
 
 Instale pacotes necessários:
-
+'''bash
 sudo apt install -y python3 python3-pip git build-essential
-
+'''bash
 Clone o repositório:
 
 git clone https://github.com/luanisaque3/netspecter-pro-max.git
